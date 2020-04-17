@@ -422,18 +422,19 @@ min-width: 700px;
   font-family: 'Open Sans', sans-serif;
   font-weight: lighter;
 }
+
 header {
     background: rgba(220, 220,220, 0.8);
-    font-size: 15px;
     line-height: 32px;
     color: black;
     margin: 0;
+    font-weight: 200;
     padding: 0;
     font-family: 'Open Sans','Arial', sans-serif;
-    font-weight: 200;
     position: fixed;
     z-index: 9999;
     width: 100%;
+    top: 0px;
 }
 a {
  color: #fff;
@@ -457,7 +458,6 @@ display: none;
     padding: 30px 20px;
     position: relative;
     user-select: none;
-    height: 100%;
 }
 .nav-icon{
     background:white;
@@ -503,6 +503,9 @@ nav ul li {
     display: inline-block;
     float: left;
     background-color: rgb(0, 140, 196);
+}
+nav ul li a {
+    font-weight: 100;
 }
 
 nav ul a {
@@ -594,6 +597,7 @@ nav ul {
 nav ul li{
     display: block;
     width: 100%;
+    font-weight: 100;
 }
 
 nav ul ul.toggle, nav ul ul a {
