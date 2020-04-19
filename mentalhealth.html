@@ -585,71 +585,16 @@ ul ul li a{
     line-height: 60px;
 }
 }
-
-.tab-content {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-  overflow: hidden;
-  display: none;
+h3 a {
+    color: black;
 }
-.tab input:checked ~ .tab-content {
-  display: block;
+h2 {
+    margin-bottom: -10px;
 }
-.tab {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
-  position: relative;
-  margin: 2px;
-  max-width: 600rem;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ul li a {
+    color: black;
 }
-
-/* [THE LABEL] */
-.tab input {
-  display: none;
-}
-.tab label {
-  display: block;
-  background-color: rgba(135, 206, 235, 1);
-  color: #fff;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 100;
-  padding: 10px;
-  cursor: pointer;
-}
-.tab label::after {
-  content: "\25b6";
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  display: block;
-  transition: all 0.4s;
-}
-.tab input[type=checkbox]:checked + label::after,
-.tab input[type=radio]:checked + label::after {
-  transform: rotate(90deg);
-}
-
-/* [THE CONTENTS] */
-.tab-content {
-  overflow: hidden;
-  background-color: rgba(135, 206, 235, 0.25);
-  /* CSS animation will not work with auto height */
-  /* This is why we use max-height */
-  transition: max-height 0.4s; 
-  max-height: 0;
-}
-.tab-content p {
-  margin: 20px;
-}
-.tab input:checked ~ .tab-content {
-  /* Set the max-height to a large number */
-  /* Or 100% viewport height */
-  max-height: 100vh;
-}
-
 </style>
-
 </head>
 <header>
         <nav>
@@ -679,7 +624,44 @@ ul ul li a{
 <body>
     <div id="main">
         <h1>Mental Health Resources</h1>
-            <img src="location.jpg">
+        <h2>10 Tips for Staying Mentally Healthy</h2>
+            <ol class="tips">
+<li><span>Build Confidence:</span> Identify your abilities and weaknesses together, accept them build on them and do the best with what you have.</li>
+<li><span>Eat right, Keep fit:</span> A balanced diet, exercise and rest can help you to reduce stress and enjoy life.</li>
+<li><span>Make Time for Family and Friends:</span> These relationships need to be nurtured; if taken for granted they will not be there to share life’s joys and sorrows.</li>
+<li><span>Give and Accept Support:</span> Friends and family relationships thrive when they are “put to the test”.</li>
+<li><span>Create a Meaningful Budget:</span>
+Financial problems cause stress. Over-spending on our “wants” instead of our “needs” is often the culprit.</li>
+<li><span>Volunteer:</span>
+Being involved in community gives a sense of purpose and satisfaction that paid work cannot.</li>
+<li><span>Manage Stress:</span>
+We all have stressors in our lives but learning how to deal with them when they threaten to overwhelm us will maintain our mental health.</li>
+<li><span>Find Strength in Numbers:</span>
+Sharing a problem with others who have had similar experiences may help you find a solution and will make you feel less isolated.</li>
+<li><span>Identify and Deal with Moods:</span>
+We all need to find safe and constructive ways to express our feelings of anger, sadness, joy and fear.</li>
+<li><span>Learn to Be at Peace with Yourself:</span>
+Get to know who you are, what makes you really happy, and learn to balance what you can and cannot change about yourself.</li>
+</ol>
+<h3>See the <a href="https://cmha.ca/" target="_blank">Canadian Mental Health Association</a> for more information</h3>
+<h2>Resources in Peel Region:</h2>
+<ul>
+    <li><a href="http://cbfht.ca/" target="_blank">Central Brampton Family Health Team</a>, mental health counsellor</li>
+<li><a href="https://cmha.ca/" target="_blank">CMHA</a> Resources and Services</li>
+</ul>
+<h2>Warning symptoms of serious mental illness:</h2>
+<ul>
+<li>Hallucinations</li>
+<li>False perceptions</li>
+<li>False beliefs</li>
+<li>Bizarre behaviour</li>
+<li>Disordered speech</li>
+<li>Delusions</li>
+<li>Suicidality</li>
+<li>Homocidality</li>
+<li>Inability to care for oneself</li>
+</ul>
+<h3>If you or someone you know is experiencing these symptoms, call 911 or go to your nearest Emergency Department</h3>
             </div>
 </body>
 <footer class="footer-distributed">
@@ -693,8 +675,8 @@ ul ul li a{
         <div class="footer-center">
             <div>
                 <i class="fa fa-map-marker"></i>
-                  <p><span>60 Gillingham Drive, Suite 200,
-                    Brampton, ON</span></p>
+                <p><span><a href="https://www.google.com/maps/place/60+Gillingham+Dr,+Brampton,+ON+L6X+0G9/@43.7041952,-79.7887388,17z/data=!3m1!4b1!4m5!3m4!1s0x882b1432949780c5:0xcd0dda782597c7e2!8m2!3d43.7041913!4d-79.7865501" target="_blank">60 Gillingham Drive, Suite 200,
+                    Brampton, ON</a></span></p>
             </div>
 
             <div>
